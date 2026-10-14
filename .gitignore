@@ -1,0 +1,6 @@
+passwords.env
+k8s-worker-join.json
+*.key
+*.pem
+kubeconfig
+*.log
