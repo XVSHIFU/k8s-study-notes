@@ -1,5 +1,11 @@
 # Kubernetes 学习笔记
 
+https://kubernetes.io/zh-cn/docs/home/
+
+https://kubernetes.feisky.xyz/extension/ingress
+
+
+
 基于 RHEL 9 三节点实验环境整理的 Kubernetes 实操记录，涵盖集群搭建、常见工作负载与网络存储实验，以及 WordPress + MySQL 持久化项目。
 
 ## 阅读顺序
