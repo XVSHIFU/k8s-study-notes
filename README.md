@@ -6,7 +6,7 @@ https://kubernetes.feisky.xyz/extension/ingress
 
 
 
-基于 RHEL 9 三节点实验环境整理的 Kubernetes 实操记录，涵盖集群搭建、常见工作负载与网络存储实验，以及 WordPress + MySQL 持久化项目。
+基于 RHEL 9 三节点实验环境整理的 Kubernetes 实操记录，涵盖集群搭建、常见工作负载与网络存储实验、WordPress + MySQL 持久化项目，以及集群监控与告警。
 
 ## 阅读顺序
 
@@ -15,6 +15,7 @@ https://kubernetes.feisky.xyz/extension/ingress
 | [01 集群搭建与初始化](01-K8s集群搭建与初始化.md) | 环境准备、手动安装、Flannel、节点加入与脚本安装；两种安装流程择一执行。 |
 | [02 应用部署与管理](02-K8s应用部署与管理.md) | 管理界面、应用基础、存储、网站入口、健康与资源、工作负载、权限、调度与维护。 |
 | [03 WordPress + MySQL 持久化博客](03-k8s%20部署%20WordPress%20%2B%20MySQL%20持久化博客.md) | 独立综合项目：部署、访问、数据查询、Pod 重建与暂停恢复。 |
+| [04 集群监控与告警](04-K8s集群监控与告警.md) | kube-prometheus-stack 部署、PromQL 与 Grafana、HPA 观察、应用指标接入、告警与邮件通知、数据持久化、HTTPS 与入口认证、排错及配置恢复。 |
 
 ## 配套文件
 
